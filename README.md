@@ -8,3 +8,6 @@ My implementation of the initial project related to this course can be found [he
 ## Assignments
 ### Assignment 1
 The implementation for **Section 3: Assignment 1 - The Base Syntax** can be found [here](https://github.com/mariamihai/assignment1).
+
+### Assignment 2
+The implementation for **Section 4: Assignment 2 - Lists & Conditionals** can be found [here](https://github.com/mariamihai/udemy-react-assignment2).
