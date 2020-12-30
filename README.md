@@ -2,6 +2,9 @@
 Overview of the entire course and all the projects from "React - The Complete Guide (incl Hooks, React Router, Redux)" [Udemy course](https://www.udemy.com/course/react-the-complete-guide-incl-redux/).
 
 ## Projects
+### The burger application
+My implementation of the main project of the course can be found [here](https://github.com/mariamihai/udemy-react-burger-app).
+
 ### React Complete Guide
 My implementation of the initial project related to this course can be found [here](https://github.com/mariamihai/react-complete-guide).
 
