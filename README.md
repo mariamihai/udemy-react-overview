@@ -2,6 +2,11 @@
 Overview of the entire course and all the projects from "React - The Complete Guide (incl Hooks, React Router, Redux)" [Udemy course](https://www.udemy.com/course/react-the-complete-guide-incl-redux/).
 
 ## Projects
+The next projects are based on the course rewrite done in April 2021.
+
+## Legacy Projects
+The course was redone and the next projects are based on the previous course.
+
 ### React Complete Guide
 My implementation of the initial project related to this course can be found [here](https://github.com/mariamihai/react-complete-guide).
 
