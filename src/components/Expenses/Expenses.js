@@ -4,6 +4,7 @@ import Card from "../UI/Card/Card";
 
 import ExpensesList from "./ExpensesList/ExpensesList";
 import ExpensesFilter from "./ExpensesFilter/ExpensesFilter";
+import ExpensesChart from './ExpensesChart/ExpensesChart';
 
 import "./Expenses.css";
 
@@ -20,15 +21,16 @@ function Expenses(props) {
   });
 
   return (
-    <li>
-      <Card className="expenses">
-        <ExpensesFilter
-          selected={year}
-          onUpdateFilterYear={updateFilterYearHandler}
-        />
+    <Card className="expenses">
+      <ExpensesFilter
+        selected={year}
+        onUpdateFilterYear={updateFilterYearHandler}
+      />
+      <ExpensesChart filteredExpenses={filteredExpenses} />
+      <li>
         <ExpensesList filteredExpenses={filteredExpenses} />
-      </Card>
-    </li>
+      </li>
+    </Card>
   );
 }
 
