@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import CourseGoalList from "./components/CourseGoals/CourseGoalList/CourseGoalList";
+import CourseInput from "./components/CourseGoals/CourseInput/CourseInput";
 
 import "./App.css";
 
@@ -12,7 +13,8 @@ const App = () => {
 
   return (
     <div>
-      <CourseGoalList goals={courseGoals} />
+      <CourseInput id="goal-form" />
+      <CourseGoalList id="goals" goals={courseGoals} />
     </div>
   );
 };
