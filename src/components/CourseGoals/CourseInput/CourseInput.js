@@ -22,6 +22,7 @@ const CourseInput = (props) => {
     event.preventDefault();
     props.onAddGoal(value);
     setValue("");
+    setDisabled(true);
   };
 
   return (
