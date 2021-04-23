@@ -11,10 +11,22 @@ const App = () => {
     { text: "Finish the course!", id: "g2" }
   ]);
 
+  const addGoalHandler = (enteredText) => {
+    setCourseGoals((prevGoals) => {
+      const updatedGoals = [...prevGoals];
+      updatedGoals.unshift({ text: enteredText, id: Math.random().toString() });
+      return updatedGoals;
+    });
+  };
+
   return (
     <div>
-      <CourseInput id="goal-form" />
-      <CourseGoalList id="goals" goals={courseGoals} />
+      <section id="goal-form">
+        <CourseInput onAddGoal={addGoalHandler} />
+      </section>
+      <section id="goals">
+        <CourseGoalList goals={courseGoals} />
+      </section>
     </div>
   );
 };
