@@ -4,6 +4,12 @@ Overview of the entire course and all the projects from "React - The Complete Gu
 ## Projects
 The next projects are based on the course rewrite done in April 2021.
 
+### React Complete Guide
+My implementation of the (new) initial project related to this course can be found [here](https://github.com/mariamihai/udemy-react-complete-guide).
+
+### Course Goals (styling project)
+The implementation is done [here](https://github.com/mariamihai/udemy-react-course-goals).
+
 ## Legacy Projects
 The course was redone and the next projects are based on the previous course.
 
