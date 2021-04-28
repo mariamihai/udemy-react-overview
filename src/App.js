@@ -16,7 +16,7 @@ const App = () => {
       const updatedGoals = [...prevGoals];
       updatedGoals.unshift({
         text: enteredText,
-        id: "goal" + courseGoals.length,
+        id: Math.random().toString(),
       });
       return updatedGoals;
     });
