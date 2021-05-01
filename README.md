@@ -10,6 +10,9 @@ My implementation of the (new) initial project related to this course can be fou
 ### Course Goals (styling project)
 The implementation is done [here](https://github.com/mariamihai/udemy-react-course-goals).
 
+### Username App (A complete practice project)
+The implementation is done [here](https://github.com/mariamihai/udemy-react-username-app).
+
 ## Legacy Projects
 The course was redone and the next projects are based on the previous course.
 
