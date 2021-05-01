@@ -9,9 +9,6 @@ import ErrorModal from "../../UI/ErrorModal/ErroModal";
 const AddUser = (props) => {
   const usernameInputRef = useRef();
   const ageInputRef = useRef();
-
-  //const [enteredUsername, setEnteredUsername] = useState("");
-  //const [enteredAge, setEnteredAge] = useState("");
   const [error, setError] = useState();
 
   const addUserHandler = (event) => {
