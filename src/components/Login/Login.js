@@ -11,6 +11,14 @@ const Login = (props) => {
   const [passwordIsValid, setPasswordIsValid] = useState();
   const [formIsValid, setFormIsValid] = useState(false);
 
+  // useEffect(() => {
+  //   console.log("Running every time, after the component's render cycle.");
+  // });
+
+  // useEffect(() => {
+  //   console.log("Running after mounting, once.");
+  // }, []);
+
   useEffect(() => {
     const identifier = setTimeout(() => {
       setFormIsValid(
