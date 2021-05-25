@@ -1,6 +1,6 @@
 import { Fragment, useState, useEffect } from "react";
 
-import Users from "../Users";
+import Users from "../Users/Users";
 
 import styles from "./UserFinder.module.css";
 
