@@ -1,20 +1,18 @@
-import { Fragment, useState, useEffect, Component } from "react";
+//import { Fragment, useState, useEffect, Component } from "react";
+import { Fragment, Component } from "react";
 
 import Users from "../Users/Users";
+import UsersContext from "../../store/users-context";
 
 import styles from "./UserFinder.module.css";
 
-const DUMMY_USERS = [
-  { id: "u1", name: "Max" },
-  { id: "u2", name: "Manuel" },
-  { id: "u3", name: "Julie" },
-];
-
 class UserFinder extends Component {
+  static contextType = UsersContext;
+
   constructor() {
     super();
     this.state = {
-      filteredUsers: DUMMY_USERS,
+      filteredUsers: [],
       searchTerm: "",
     };
   }
@@ -23,13 +21,13 @@ class UserFinder extends Component {
     // For eg., fetch users when the component first renders
     // Send http request and setState for filteredUsers
 
-    this.setState({ filteredUsers: DUMMY_USERS });
+    this.setState({ filteredUsers: this.context.users });
   }
 
   componentDidUpdate(prevProps, prevState) {
     if (prevState.searchTerm !== this.state.searchTerm) {
       this.setState({
-        filteredUsers: DUMMY_USERS.filter((user) =>
+        filteredUsers: this.context.users.filter((user) =>
           user.name.includes(this.state.searchTerm)
         ),
       });
