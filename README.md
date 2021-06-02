@@ -13,6 +13,27 @@ The implementation is done [here](https://github.com/mariamihai/udemy-react-cour
 ### Username App (A complete practice project)
 The implementation is done [here](https://github.com/mariamihai/udemy-react-username-app).
 
+### Typical App
+Implementation done under **Section 10: Advanced: Handling Side Effects, Using Reducers & Using the Context API.**. My implementaion can be found [here](https://github.com/mariamihai/udemy-react-typical-app).
+
+### Food Order App (a practice project)
+Implementation done under **Section 11: Practice Project: Building a Food Order App**. 
+
+#### Details
+Simple application for displaying meals and adding or removing them from the cart. The ordering is not implemented. My code can be found [here](https://github.com/mariamihai/udemy-react-the-food-order-app).
+
+### Building class-based components
+Implementation done under **Section 13: An Alternative Way Of Building Components: Class-based Components**
+
+#### Details
+Exemple of using React with the preferred method of creating components before React 16.8. Before the course rewrite class-based components were more common and can't connect them to a specific legacy project. My implementation for Section 13 can be found [here](https://github.com/mariamihai/udemy-react-class-based-components). 
+
+### HTTP related application
+Implementation done under **Section 14: Sending HTTP Requests (e.g. Connecting to a Database)**
+
+#### Details
+Connecting to a database with a Firebase project with the Fetch API - project [here](https://github.com/mariamihai/udemy-react-http-requests).
+
 ## Legacy Projects
 The course was redone and the next projects are based on the previous course.
 
