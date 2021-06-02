@@ -2,7 +2,7 @@
 
 The current project is part of the "React - The Complete Guide (incl Hooks, React Router, Redux)" [Udemy course](https://www.udemy.com/course/react-the-complete-guide-incl-redux/).
 
-Contains the implementation done for **Section 13: An Alternative Way Of Building Components: Class-based Componets**.
+Contains the implementation done for **Section 13: An Alternative Way Of Building Components: Class-based Components**.
 
 An overview of all the projects involved can be found [here](https://github.com/mariamihai/udemy-react-overview).
 
