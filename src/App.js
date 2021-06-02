@@ -4,6 +4,8 @@ import AddMovie from "./components/AddMovie";
 import MoviesList from "./components/MoviesList";
 import "./App.css";
 
+const pathToResource = "https://udemy-react-http-68150-default-rtdb.europe-west1.firebasedatabase.app/movies.json";
+
 function App() {
   const [movies, setMovies] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -14,8 +16,7 @@ function App() {
     setError(null);
 
     try {
-      //const response = await fetch("https://swapi.dev/api/films/");
-      const response = await fetch("https://udemy-react-http-68150-default-rtdb.europe-west1.firebasedatabase.app/movies.json");
+      const response = await fetch(pathToResource);
 
       if (!response.ok) {
         throw new Error("Something went wrong!");
@@ -46,20 +47,24 @@ function App() {
   }, [fetchMoviesHandler]);
 
   async function addMovieHandler(movie) {
-    const response = await fetch(
-      "https://udemy-react-http-68150-default-rtdb.europe-west1.firebasedatabase.app/movies.json",
-      {
-        method: "POST",
-        body: JSON.stringify(movie),
-        headers: {
-          // Technically not required here
-          "Content-Type": "application/json",
-        },
-      }
-    );
+    try {
+      const response = await fetch(
+        pathToResource,
+        {
+          method: "POST",
+          body: JSON.stringify(movie),
+          headers: {
+            // Technically not required here
+            "Content-Type": "application/json",
+          },
+        }
+      );
 
-    const data = await response.json();
-    console.log(data);
+      const data = await response.json();
+      console.log(data);
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   let content = <p>Found no movies</p>;
