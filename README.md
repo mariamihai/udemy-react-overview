@@ -34,6 +34,12 @@ Implementation done under **Section 14: Sending HTTP Requests (e.g. Connecting t
 #### Details
 Connecting to a database with a Firebase project with the Fetch API - project [here](https://github.com/mariamihai/udemy-react-http-requests).
 
+### Custom Hooks
+Implementation done under **Section 15: Building Custom React Hooks**
+
+#### Counter custom hook
+A small application for showing how custom hooks work. Code [here](https://github.com/mariamihai/udemy-react-counter-custom-hooks).
+
 ## Legacy Projects
 The course was redone and the next projects are based on the previous course.
 
