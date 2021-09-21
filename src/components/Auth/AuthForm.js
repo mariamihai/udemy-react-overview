@@ -15,7 +15,7 @@ const AuthForm = () => {
     const [isLogin, setIsLogin] = useState(true);
     const [isLoading, setIsLoading] = useState(false);
 
-    const API_KEY = 'AIzaSyA47fW2eTqlUQnwERpm3hjG6RhGHyir3Qs';
+    const API_KEY = '<>';
 
     const switchAuthModeHandler = () => {
         setIsLogin((prevState) => !prevState);

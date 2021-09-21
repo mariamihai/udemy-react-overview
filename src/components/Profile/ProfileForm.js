@@ -6,7 +6,7 @@ import AuthContext from "../../store/auth-context";
 import styles from "./ProfileForm.module.css";
 
 const ProfileForm = () => {
-    const API_KEY = 'AIzaSyA47fW2eTqlUQnwERpm3hjG6RhGHyir3Qs';
+    const API_KEY = '<>';
 
     const authCtx = useContext(AuthContext);
     const history = useHistory();
