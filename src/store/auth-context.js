@@ -7,6 +7,15 @@ const AuthContext = React.createContext({
     logout: () => {}
 });
 
+const calculateRemainingTime = (expirationTime) => {
+    const currentTime = new Date().getTime();
+    const adjustedExpirationTime = new Date(expirationTime).getTime();
+
+    const remainingDuration = adjustedExpirationTime - currentTime;
+
+    return remainingDuration;
+};
+
 export const AuthContextProvider = (props) => {
 
     const initialToken = localStorage.getItem('token');
@@ -14,14 +23,17 @@ export const AuthContextProvider = (props) => {
 
     const userIsLoggedIn = !!token;
 
-    const loginHandler = (token) => {
-        setToken(token);
-        localStorage.setItem('token', token);
-    };
-
     const logoutHandler = () => {
         setToken(null);
         localStorage.removeItem('token');
+    };
+
+    const loginHandler = (token, expirationTime) => {
+        setToken(token);
+        localStorage.setItem('token', token);
+
+        const remainingTime = calculateRemainingTime(expirationTime);
+        setTimeout(logoutHandler, remainingTime)
     };
 
     const contextValue = {
@@ -34,7 +46,7 @@ export const AuthContextProvider = (props) => {
 
     return <AuthContext.Provider value={contextValue}> {
         props.children
-    } < /AuthContext.Provider>
+    } </AuthContext.Provider>
 }
 
 export default AuthContext;
