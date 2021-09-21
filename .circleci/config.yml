@@ -29,13 +29,16 @@ jobs:
 
       #- run: yarn lint
     
-      - run: yarn size
+      #- run: yarn size
     
-      - run: yarn test
+      #- run: yarn test
     
       - run: yarn build
 
       - aws-s3/sync:
+          aws-access-key-id: AWS_ACCESS_KEY_ID
+          aws-region: AWS_REGION 
+          aws-secret-access-key: AWS_SECRET_ACCESS_KEY
           from: build
           to: "s3://udemy-react-authentication-bucket/"
           arguments: |
