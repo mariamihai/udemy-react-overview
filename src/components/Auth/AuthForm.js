@@ -1,4 +1,5 @@
 import {useState, useRef, useContext} from "react";
+import {useHistory} from 'react-router-dom';
 import AuthContext from "../../store/auth-context";
 
 import styles from "./AuthForm.module.css";
@@ -9,11 +10,12 @@ const AuthForm = () => {
     const passwordInputRef = useRef();
 
     const authCtx = useContext(AuthContext);
+    const history = useHistory();
 
     const [isLogin, setIsLogin] = useState(true);
     const [isLoading, setIsLoading] = useState(false);
 
-    const API_KEY = '<API_KEY>';
+    const API_KEY = 'AIzaSyA47fW2eTqlUQnwERpm3hjG6RhGHyir3Qs';
 
     const switchAuthModeHandler = () => {
         setIsLogin((prevState) => !prevState);
@@ -61,11 +63,10 @@ const AuthForm = () => {
 
                     throw new Error(errorMessage);
                 });
-
             }
         }).then((data) => {
-            console.log(data);
             authCtx.login(data.idToken);
+            history.replace('/');
         }).catch((error) => {
             // Can show a message based on the error received
             // if (data && data.error && data.error.message) {
