@@ -21,3 +21,7 @@ AWS CLI S3 commands [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-
 ## Using CircleCI
 
 Integrated with CircleCI, the configuration file can be found under `.circleci/config.yml`.
+
+## Status
+
+**[COMPLETED]** - As I finished the section of the course and the associated project, I am setting a personal status of "Completed" and will probably not update this repository in the near future as this was a learning project.
