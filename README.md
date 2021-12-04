@@ -40,6 +40,14 @@ Implementation done under **Section 15: Building Custom React Hooks**
 #### Counter custom hook
 A small application for showing how custom hooks work. Code [here](https://github.com/mariamihai/udemy-react-counter-custom-hooks).
 
+### Adding authentication
+Implementation done under **Section 22: Adding Authentication To React Apps** - project [here](https://github.com/mariamihai/udemy-react-authentication).
+
+### React hooks
+Implementation done for **Section 28: React Hooks Introduction and Summary** - code [here](https://github.com/mariamihai/udemy-react-hooks)
+
+---
+
 ## Legacy Projects
 The course was redone and the next projects are based on the previous course.
 
@@ -52,12 +60,12 @@ My implementation of the main project of the course can be found [here](https://
 ### Http related application
 My implementation for Section 9 - "Reaching out to the Web (Http / Ajax)" - [here](https://github.com/mariamihai/udemy-react-http).
 
-## Assignments
-### Assignment 1
+### Assignments
+#### Assignment 1
 The implementation for **Section 3: Assignment 1 - The Base Syntax** can be found [here](https://github.com/mariamihai/udemy-react-assignment1).
 
-### Assignment 2
+#### Assignment 2
 The implementation for **Section 4: Assignment 2 - Lists & Conditionals** can be found [here](https://github.com/mariamihai/udemy-react-assignment2).
 
-### Assignment 3
+#### Assignment 3
 The implementation for **Section 11: Assignment 3 - Routing** can be found [here](https://github.com/mariamihai/udemy-react-assignment3).
