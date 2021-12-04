@@ -37,6 +37,9 @@ Connecting to a database with a Firebase project with the Fetch API - project [h
 ### Custom Hooks
 Implementation done under **Section 15: Building Custom React Hooks**
 
+### Forms and User Input
+Implementation done under **Section 16: Working with Forms & User Input** - code [here](https://github.com/mariamihai/udemy-react-forms-and-user-input).
+
 #### Counter custom hook
 A small application for showing how custom hooks work. Code [here](https://github.com/mariamihai/udemy-react-counter-custom-hooks).
 
