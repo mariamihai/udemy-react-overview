@@ -12,4 +12,4 @@ The purpose of the current section was to exemplify the connection to a database
 
 The implementation required a Firebase project to save and retrieve movies. As this is just an example project, I will not maintain the project.
 
-The previous version of the course used the Axios API. My implementation for the legacy project can be found [here](https://github.com/mariamihai/udemy-react-http).
+The previous version of the course used the Axios API. My implementation for the legacy project can be found [here](https://github.com/mariamihai/udemy-react-legacy-overview).
