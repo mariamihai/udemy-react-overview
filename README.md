@@ -66,7 +66,7 @@ Implementation done under **Section 16: Working with Forms & User Input** - code
 
 ### Adding authentication
 
-Implementation done under **Section 22: Adding Authentication To React Apps** - project [here](https://github.com/mariamihai/udemy-react-authentication).
+Implementation done under **Section 22: Adding Authentication To React Apps** - project [here](./udemy-react-authentication).
 
 ### React hooks
 
