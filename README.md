@@ -56,6 +56,10 @@ Implementation done under **Section 15: Building Custom React Hooks**
 
 A small application for showing how custom hooks work. Code [here](./CounterCustomHooks/).
 
+#### Tasks custom hooks
+
+Implementation for custom hooks project [here](./TasksCustomHooks).
+
 ### Forms and User Input
 
 Implementation done under **Section 16: Working with Forms & User Input** - code [here](./FormsAndUserInput/).
