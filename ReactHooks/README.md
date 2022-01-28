@@ -4,4 +4,4 @@ The current project is part of the "React - The Complete Guide (incl Hooks, Reac
 
 Contains the implementation done for Section 28.
 
-An overview of all the projects involved can be found [here](https://github.com/mariamihai/udemy-react-overview).
+An overview of all the projects involved can be found [here](../../..).

@@ -4,12 +4,8 @@ The current project is part of the "React - The Complete Guide (incl Hooks, Reac
 
 Contains the implementation done for **Section 10: Advanced: Handling Side Effects, Using Reducers & Using the Context API**.
 
-An overview of all the projects involved can be found [here](https://github.com/mariamihai/udemy-react-overview).
+An overview of all the projects involved can be found [here](../../..).
 
 ## Implementation details
 
 Implementation done for a "typical" app, using different hooks, the Context API, Refs and Forward Refs.
-
-## Status
-
-**[COMPLETED]** - As I finished the section of the course and the associated project, I am setting a personal status of "Completed" and will probably not update this repository in the near future as this was a learning project.
